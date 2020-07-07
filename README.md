@@ -5,6 +5,13 @@
 * Ubuntu 16.04.05 Xenial
 * GitHubアカウントとmorioka-labへの招待
 
+### morioka-labへの招待
+morioka-labに入りたかったらSlackの「ホームページ更新」チャンネルで「@moriokalabcombot invite github <GitHubに登録したメールアドレス>」と入力しましょう。招待メールが届くはずです。
+
+![invite-github](/docs/images/invite-github.png)
+
+よく分からなかったら森岡先生に聞いてみましょう。
+
 ## 簡単セットアップ
 以下のコマンドを実行すれば必要なライブラリのインストール、初期ワークスペースの作成が一発で行えます(たぶん)。
 
