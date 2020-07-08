@@ -34,8 +34,14 @@ Creating symlink "/home/asmsuechan/my_workspace/src/CMakeLists.txt" pointing to 
 森岡研にある自律移動ロボットを動かすための設定等を以下の流れでダウンロードします。
 
 1. GitHubに登録する
-2. [森岡研のGitHub Organization](https://github.com/morioka-lab)への招待をもらう(そのうちbotでどうにかするけど今は手動。先生にアカウント欲しいって言ってください)
+2. [森岡研のGitHub Organization](https://github.com/morioka-lab)への招待をもらう(下記参照)
 3. ~/my_workspace/srcでgit clone https://github.com/morioka-lab/rosを実行する
+
+morioka-labに入りたかったらSlackの「ホームページ更新」チャンネルで「@moriokalabcombot invite github <GitHubに登録したメールアドレス>」と入力しましょう。招待メールが届くはずです。
+
+![invite-github](/docs/images/invite-github.png)
+
+よく分からなかったら森岡先生に聞いてみましょう。
 
 https://github.com/morioka-lab/ros が見えなかったら権限がありません。git/GitHub周りは聞いてください。
 
