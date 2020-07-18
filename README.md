@@ -3,7 +3,7 @@
 
 ## 事前に必要なもの
 * Ubuntu 16.04.05 Xenial
-* GitHubアカウントとmorioka-labへの招待
+* **GitHubアカウント**とmorioka-labへの招待
 
 ### morioka-labへの招待
 morioka-labに入りたかったらSlackの「ホームページ更新」チャンネルで「@moriokalabcombot invite github <GitHubに登録したメールアドレス>」と入力しましょう。招待メールが届くはずです。
