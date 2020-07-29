@@ -29,5 +29,6 @@ $ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/morioka-la
 1. [はじめに](/docs/get_started.md)
 2. [ロボットを動かす](/docs/move_robot.md)
 3. [ロボットの地図に関して](/docs/map.md)
+3. [地図作成](/docs/map-creation.md)
 4. [ロボットの自律移動](/docs/autonomous_mobile.md)
 5. [GPUを使った学習の環境構築](/docs/setup_for_machine_learning.md)
