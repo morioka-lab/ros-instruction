@@ -16,7 +16,7 @@ morioka-labに入りたかったらSlackの「ホームページ更新」チャ�
 以下のコマンドを実行すれば必要なライブラリのインストール、初期ワークスペースの作成が一発で行えます(たぶん)。
 
 ```shell
-$ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/morioka-lab/ros-instruction/master/setup.sh | bash
+$ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/morioka-lab/ros-instruction/master/setup-melodic.sh | bash
 ```
 
 たまにパスワードとか求められるので見ておきましょう。

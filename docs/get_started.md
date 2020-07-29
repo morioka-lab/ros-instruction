@@ -1,6 +1,17 @@
 # はじめに
 動作確認も兼ねてROSの基礎的な動作に関して少し説明します。
 
+## 0. セットアップ
+推奨環境: Ubuntu 18.04 melodic
+
+以下のコマンドを実行すれば必要なライブラリのインストール、初期ワークスペースの作成が一発で行えます(たぶん)。
+
+```shell
+$ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/morioka-lab/ros-instruction/master/setup-melodic.sh | bash
+```
+
+たまにパスワードとか求められるので見ておきましょう。
+
 ## 1. ジョイスティックからの値を取得する
 まず`roscore`を立ち上げます。これはrosを動かす上でのサーバーのようなものです。
 
