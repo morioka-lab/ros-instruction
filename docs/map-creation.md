@@ -36,7 +36,7 @@ sudo chmod 666 /dev/ttyACM0 && sudo chmod 666 /dev/ttyACM1
 ## なんかグルグル回る
 以下のようにrviz上の様子がおかしい場合があります。
 
-![rviz-guruguru](gmapping-lost.gif)
+![rviz-guruguru](/docs/images/gmapping-lost.gif)
 
 このようになるのは座標系が反転しているからです。また、以下のようにrvizをよく見ると壁とは反対の部分が壁として認識されています。
 
