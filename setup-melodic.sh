@@ -77,6 +77,7 @@ cd ~/my_workspace/src
 catkin init
 
 cd -
+pip install catkin_pkg
 catkin_make
 git clone https://github.com/morioka-lab/ros
 cp -rf ros/* ~/my_workspace/src/
