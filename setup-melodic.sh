@@ -74,7 +74,7 @@ printf " ${Y}///     ${B}Start creating project...${N}     ${Y}///${N}\n"
 printf "${Y}/////////////////////////////////////////${N}\n"
 mkdir -p ~/my_workspace/src
 cd ~/my_workspace/src
-catkin init
+catkin_init_workspace
 
 cd -
 pip install catkin_pkg
