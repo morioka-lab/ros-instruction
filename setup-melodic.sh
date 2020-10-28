@@ -8,6 +8,7 @@ N='\033[0m'
 printf "  ${Y}/////////////////////////////////////////${N}\n"
 printf " ${Y}///      ${B}Start installing Python2.7.16 by pyenv...${N}      ${Y}///${N}\n"
 printf "${Y}/////////////////////////////////////////${N}\n"
+sudo apt install -y git
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
@@ -41,7 +42,6 @@ sleep 0.5
 printf "  ${Y}/////////////////////////////////////////${N}\n"
 printf " ${Y}///    ${B}Start installing yp-spur...${N}    ${Y}///${N}\n"
 printf "${Y}/////////////////////////////////////////${N}\n"
-sudo apt install -y git
 git clone http://www.roboken.iit.tsukuba.ac.jp/platform/repos/yp-spur.git ~/yp-spur-tsukuba
 cd ~/yp-spur-tsukuba
 ./configure
