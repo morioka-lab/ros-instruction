@@ -48,9 +48,16 @@ Error: Can't open serial port.
 
 こんな時は
 
+```
+sudo chmod 666 /dev/ttyACM0 && sudo chmod 666 /dev/ttyACM1
+```
+
+を試してみてください。それでもだめなら
+
+
 * USBケーブルを抜き差し
 * USBハブを取ってPCの直接挿す
 * ロボットの再起動
-* ロボットの充電をする
+* バッテリーの充電をする
 
-を試してみてください。
+を見てみましょう。
