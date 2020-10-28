@@ -15,7 +15,6 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
 sudo apt-get update --fix-missing
-sudo apt-get install build-essential
 sudo apt-get install -y build-essential zlib1g-dev libssl-dev libffi-dev
 pyenv install 2.7.16
 pyenv global 2.7.16
