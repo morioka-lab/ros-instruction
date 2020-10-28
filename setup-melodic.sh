@@ -31,6 +31,7 @@ printf "${Y}/////////////////////////////////////////${N}\n"
 # sudo apt-get install ros-melodic-desktop-full
 # sudo rosdep init
 # rosdep update
+sudo apt install -y curl
 bash -c "$(curl -SsfL u.ty0.jp/ros-melodic-desktop)"
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
