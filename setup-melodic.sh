@@ -76,7 +76,7 @@ mkdir -p ~/my_workspace/src
 cd ~/my_workspace/src
 catkin_init_workspace
 
-cd -
+cd ~/my_workspace
 pip install catkin_pkg
 catkin_make
 git clone https://github.com/morioka-lab/ros
