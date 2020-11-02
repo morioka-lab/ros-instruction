@@ -1,6 +1,6 @@
 # ロボットの自律移動
 ## 1. トイレまで走る
-まずは研究室の前からトイレの前まで自律移動します。最初に以下のコマンドでiart_navigationのパッケージを立ち上げましょう。
+まずは研究室の前からトイレの前まで自律移動します。最初に以下のコマンドでicart_navigationのパッケージを立ち上げましょう。
 
 ```
 $ roslaunch icart_navigation icart_navigation.launch
