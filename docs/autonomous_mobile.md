@@ -58,7 +58,13 @@ $ roslaunch icart_navigation icart_navigation.launch
 
 次に、rvizを開いて2D Pose Estimateで初期位置を設定します。
 
-そして最後に以下のコマンドで`goal_queue`にウェイポイントを追加したらロボットが動き出します。
+そしてgoal_queueのノードを起動します。
+
+```
+$ rosrun goal_queue goal_queue_node
+```
+
+最後に以下のコマンドで`goal_queue`にウェイポイントを追加したらロボットが動き出します。
 
 ```
 $ rosrun goal_server goal_server nakano_11f.csv
