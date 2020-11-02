@@ -16,6 +16,16 @@ $ roslaunch my_utility rviz.launch
 
 メニュー中にある**2D Pose Estimate**を押して出てくる矢印を研究室前で進行方向に向かってドラッグ&ドロップします。進むうちに場所は修正されるので結構適当でいいです。
 
+画面はShift + ドラッグで移動できます。
+
+![ros-map-2](/docs/images/ros-map-3.png)
+
+赤い線がセンサーが取得した壁です。これがマップ上の実際の壁と同じくらいの位置に来るようにしてください。
+
+こんな感じになります。
+
+![ros-map-4](/docs/images/ros-map-4.png)
+
 自己位置が正しく定まったら**2D Nav Goal**をクリックし、矢印をトイレの前にドラッグ&ドロップします。これでロボットが動き出すはずです。
 
 ## 2. ウェイポイントの記録
@@ -33,15 +43,7 @@ $ roslaunch icart_navigation waypoint_recorder.launch
 $ roslaunch my_utility rviz.launch
 ```
 
-画面はShift + ドラッグで移動できます。
-
-![ros-map-2](/docs/images/ros-map-3.png)
-
-赤い線がセンサーが取得した壁です。これがマップ上の実際の壁と同じくらいの位置に来るようにしてください。
-
-こんな感じになります。
-
-![ros-map-4](/docs/images/ros-map-4.png)
+まず上に書いた要領で2D Nav Poseを設定してください。
 
 次に実際にウェイポイントを記録していきます。別のターミナルで以下のコマンドを実行してください。
 
